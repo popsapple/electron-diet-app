@@ -1,0 +1,17 @@
+directories:
+  output: dist/
+  buildResources: resources/installer/
+  app: .
+productName: HelloElectron
+appId: com.electron.hello
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+        - ia32
+  icon: ./resources/electron.ico
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+electronVersion: 5.0.7
