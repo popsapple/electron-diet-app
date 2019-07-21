@@ -8,7 +8,7 @@
 
 ***
 
-#electron-build 설정 방법.
+# electron-build 설정 방법.
   ```
   "build": {
     "productName": "HelloElectronTest",
